@@ -1,0 +1,72 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: product_warranty
+#: model:ir.model.fields.selection,name:product_warranty.selection__product_supplierinfo__warranty_return_partner__company
+msgid "Company"
+msgstr "Компанія"
+
+#. module: product_warranty
+#: model:ir.model.fields,field_description:product_warranty.field_return_instruction__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: product_warranty
+#: model:ir.model.fields,field_description:product_warranty.field_return_instruction__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: product_warranty
+#: model:ir.model.fields,field_description:product_warranty.field_return_instruction__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: product_warranty
+#: model:ir.model.fields,field_description:product_warranty.field_product_supplierinfo__return_instructions
+#: model:ir.model.fields,field_description:product_warranty.field_return_instruction__instructions
+#: model_terms:ir.ui.view,arch_db:product_warranty.product_return_instructions_form_view
+msgid "Instructions"
+msgstr "Інструкції"
+
+#. module: product_warranty
+#: model:ir.model.fields,field_description:product_warranty.field_return_instruction__is_default
+msgid "Is Default"
+msgstr "За замовчуванням"
+
+#. module: product_warranty
+#: model:ir.model.fields,field_description:product_warranty.field_product_supplierinfo__warranty_duration
+msgid "Period"
+msgstr "Період"
+
+#. module: product_warranty
+#: model:ir.actions.act_window,name:product_warranty.product_return_instructions_action
+#: model:ir.ui.menu,name:product_warranty.menu_product_return_instructions_action
+msgid "Products Return Instructions"
+msgstr "Інструкції з повернення товарів"
+
+#. module: product_warranty
+#: model:ir.model.fields,field_description:product_warranty.field_product_supplierinfo__warranty_return_partner
+msgid "Return type"
+msgstr "Тип повернення"
+
+#. module: product_warranty
+#: model:ir.model.fields.selection,name:product_warranty.selection__product_supplierinfo__warranty_return_partner__supplier
+msgid "Supplier"
+msgstr "Постачальник"
+
+#. module: product_warranty
+#: model:ir.model.fields,field_description:product_warranty.field_return_instruction__name
+msgid "Title"
+msgstr "Заголовок"

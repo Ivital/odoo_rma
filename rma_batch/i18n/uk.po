@@ -1,0 +1,130 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: rma_batch
+#: model:ir.actions.act_window,name:rma_batch.rma_batch_act_window
+#: model:ir.ui.menu,name:rma_batch.rma_batch_menu
+msgid "Batches"
+msgstr "Пакети"
+
+#. module: rma_batch
+#: model:ir.model.fields.selection,name:rma_batch.selection__rma_batch__state__cancelled
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: rma_batch
+#: model:ir.model.fields.selection,name:rma_batch.selection__rma_batch__state__confirmed
+msgid "Confirmed"
+msgstr "Підтверджено"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__count_rma
+msgid "Count Rma"
+msgstr "Кількість RMA"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma__partner_id
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__partner_id
+msgid "Customer"
+msgstr "Клієнт"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__date
+msgid "Date"
+msgstr "Дата"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__location_id
+msgid "Location"
+msgstr "Розташування"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: rma_batch
+#: model:ir.model,name:rma_batch.model_rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma__batch_id
+#: model_terms:ir.ui.view,arch_db:rma_batch.rma_batch_form_view
+msgid "RMA Batch"
+msgstr "Пакет RMA"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__team_id
+msgid "RMA team"
+msgstr "Команда RMA"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__name
+msgid "Reference"
+msgstr "Посилання"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma__user_id
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__user_id
+msgid "Responsible"
+msgstr "Відповідальний"
+
+#. module: rma_batch
+#: model:ir.model.fields,field_description:rma_batch.field_rma__tag_ids
+#: model:ir.model.fields,field_description:rma_batch.field_rma_batch__tag_ids
+msgid "Tags"
+msgstr "Теги"
