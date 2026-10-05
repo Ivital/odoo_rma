@@ -2147,3 +2147,235 @@ msgid ""
 msgstr ""
 "{{object.company_id.name}} Ваш RMA успішно створено (Ref {{object.name or "
 "'n/a' }})"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid ""
+"<b>E-mail subject:</b> %(subject)s<br/><br/><b>E-mail body:</b><br/>%(body)s"
+msgstr ""
+"<b>Тема листа:</b> %(subject)s<br/><br/><b>Текст листа:</b><br/>%(body)s"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/wizard/rma_split.py:0
+msgid "Extracted RMA"
+msgstr "Вилучене RMA"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid "Incoming e-mail"
+msgstr "Вхідний лист"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid "None of the selected RMAs can perform a new RMA."
+msgstr "Жоден із вибраних RMA не може створити новий RMA."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid "None of the selected RMAs can perform a replacement."
+msgstr "Жоден із вибраних RMA не може виконати заміну."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid "None of the selected RMAs can perform a return."
+msgstr "Жоден із вибраних RMA не може виконати повернення."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid ""
+"Quantity to extract cannot be greater than remaining delivery quantity "
+"(%(remaining_qty)s %(product_uom)s)"
+msgstr ""
+"Кількість для вилучення не може перевищувати залишкову кількість доставки "
+"(%(remaining_qty)s %(product_uom)s)"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/res_company.py:0
+msgid "RMA Code"
+msgstr "Код RMA"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/stock_warehouse.py:0
+msgid "RMA Delivery Orders"
+msgstr "Замовлення доставки RMA"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/stock_warehouse.py:0
+msgid "RMA Receipts"
+msgstr "Надходження RMA"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid ""
+"Replacement: Move <a href=\"#\" data-oe-model=\"stock.move\" data-oe-"
+"id=\"%(move_id)d\">%(move_name)s</a> (Picking <a href=\"#\" data-oe-"
+"model=\"stock.picking\" data-oe-id=\"%(picking_id)d\"> %(picking_name)s</a>)"
+" has been created."
+msgstr ""
+"Заміна: створено переміщення <a href=\"#\" data-oe-model=\"stock.move\" "
+"data-oe-id=\"%(move_id)d\">%(move_name)s</a> (переміщення <a href=\"#\" "
+"data-oe-model=\"stock.picking\" data-oe-id=\"%(picking_id)d\"> "
+"%(picking_name)s</a>)."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid ""
+"Replacement:<br/>Product <a href=\"#\" data-oe-model=\"product.product\" "
+"data-oe-id=\"%(id)d\">%(name)s</a><br/>Quantity %(qty)s %(uom)s<br/>This "
+"replacement did not create a new move, but one of the previously created "
+"moves was updated with this data."
+msgstr ""
+"Заміна:<br/>Товар <a href=\"#\" data-oe-model=\"product.product\" data-oe-"
+"id=\"%(id)d\">%(name)s</a><br/>Кількість %(qty)s %(uom)s<br/>Ця заміна не "
+"створила нового переміщення, але одне з раніше створених переміщень було "
+"оновлено цими даними."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid "Required field(s):%s"
+msgstr "Обов’язкові поля:%s"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/stock_move.py:0
+msgid "Return of %s"
+msgstr "Повернення %s"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid ""
+"Return: <a href=\"#\" data-oe-model=\"stock.picking\" data-oe-"
+"id=\"%(id)d\">%(name)s</a> has been created."
+msgstr ""
+"Повернення: створено <a href=\"#\" data-oe-model=\"stock.picking\" data-oe-"
+"id=\"%(id)d\">%(name)s</a>."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/wizard/stock_picking_return.py:0
+msgid "Returned Picking"
+msgstr "Повернене комплектування"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/stock_warehouse.py:0
+msgid "Sequence RMA in"
+msgstr "Послідовність RMA в"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/stock_warehouse.py:0
+msgid "Sequence RMA out"
+msgstr "Послідовність RMA вих."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid ""
+"Split: <a href=\"#\" data-oe-model=\"rma\" data-oe-"
+"id=\"%(id)d\">%(name)s</a> has been created."
+msgstr ""
+"Розділення: створено <a href=\"#\" data-oe-model=\"rma\" data-oe-"
+"id=\"%(id)d\">%(name)s</a>."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/stock_move.py:0
+msgid ""
+"The quantity done for the product '%(id)s' must be equal to its initial "
+"demand because the stock move is linked to an RMA (%(name)s)."
+msgstr ""
+"Виконана кількість товару «%(id)s» має дорівнювати початковому попиту, "
+"оскільки складське переміщення пов’язане з RMA (%(name)s)."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid "The quantity to return is greater than remaining quantity."
+msgstr "Кількість для повернення перевищує залишкову кількість."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid "The reception must be done before finishing this rma"
+msgstr "Приймання має бути виконано до завершення цього RMA"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid ""
+"The selected operation requires a return product different from the "
+"originally delivered item. Please select the product to return."
+msgstr ""
+"Вибрана операція вимагає товар повернення, відмінний від спочатку "
+"доставленого. Виберіть товар для повернення."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/account_move.py:0
+msgid ""
+"There is at least one invoice lines whose quantity is less than the quantity"
+" specified in its linked RMA."
+msgstr ""
+"Існує щонайменше один рядок рахунку, кількість у якому менша за кількість у "
+"пов’язаному RMA."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid "This RMA cannot be split."
+msgstr "Цей RMA не можна розділити."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid "This RMA cannot perform a new RMA."
+msgstr "Цей RMA не може створити новий RMA."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid "This RMA cannot perform a replacement."
+msgstr "Для цього RMA неможливо виконати заміну."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid "This RMA cannot perform a return."
+msgstr "Цей RMA не може виконати повернення."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/wizard/rma_rma_wizard.py:0
+msgid "This rma has been created from: %(rma_link)s"
+msgstr "Цей RMA створено з: %(rma_link)s"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma.py:0
+msgid "You cannot delete RMAs that are not in draft state"
+msgstr "Не можна видаляти RMA, які не перебувають у стані чернетки"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/wizard/stock_picking_return.py:0
+msgid ""
+"You must specify the 'Customer' in the 'Stock Picking' from which RMAs will "
+"be created"
+msgstr ""
+"Потрібно вказати «Клієнта» у «Складському переміщенні», з якого "
+"створюватимуться RMA"

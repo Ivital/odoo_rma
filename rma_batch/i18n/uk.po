@@ -349,3 +349,15 @@ msgstr ""
 #: model:ir.model.fields,help:rma_batch.field_rma_batch__partner_invoice_id
 msgid "Refund address for current RMA."
 msgstr "Адреса повернення коштів для поточного RMA."
+
+#. module: rma_batch
+#. odoo-python
+#: code:addons/rma_batch/models/rma.py:0
+msgid "All RMAs in a batch must belong to the same partner"
+msgstr "Усі RMA в пакеті мають належати одному партнеру"
+
+#. module: rma_batch
+#. odoo-python
+#: code:addons/rma_batch/models/rma_batch.py:0
+msgid "You cannot delete RMAs that are not in draft state"
+msgstr "Не можна видаляти RMA, які не перебувають у стані чернетки"

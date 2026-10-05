@@ -96,3 +96,20 @@ msgstr ""
 #: model:ir.model.fields,help:rma_sale_auto_detect.field_rma_operation__return_eligibility_order
 msgid "This will change the way of eligible sale orders are retrieved."
 msgstr "Це змінить спосіб отримання придатних замовлень на продаж."
+
+#. module: rma_sale_auto_detect
+#. odoo-python
+#: code:addons/rma_sale_auto_detect/models/rma.py:0
+msgid "No delivery move found or insufficient delivered quantity."
+msgstr ""
+"Не знайдено переміщення доставки або доставленої кількості недостатньо."
+
+#. module: rma_sale_auto_detect
+#. odoo-python
+#: code:addons/rma_sale_auto_detect/models/rma.py:0
+msgid ""
+"The quantity to return exceeds the remaining returnable quantity for this "
+"delivery."
+msgstr ""
+"Кількість для повернення перевищує залишкову кількість, яку можна повернути "
+"для цієї доставки."

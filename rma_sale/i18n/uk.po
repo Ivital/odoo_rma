@@ -381,3 +381,17 @@ msgstr "Значення з користувацьких полів форми �
 #: model:ir.model.fields,help:rma_sale.field_sale_order_rma_wizard__partner_shipping_id
 msgid "Will be used to return the goods when the RMA is completed"
 msgstr "Використовуватиметься для повернення товарів після завершення RMA"
+
+#. module: rma_sale
+#. odoo-python
+#: code:addons/rma_sale/wizard/sale_order_rma_wizard.py:0
+msgid ""
+"You can't exceed the allowed quantity for returning product %(product)s."
+msgstr ""
+"Не можна перевищувати дозволену кількість для повернення товару %(product)s."
+
+#. module: rma_sale
+#. odoo-python
+#: code:addons/rma_sale/models/sale.py:0
+msgid "You may only create RMAs from a confirmed sale order."
+msgstr "RMA можна створювати лише з підтвердженого замовлення продажу."

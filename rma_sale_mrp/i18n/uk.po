@@ -298,3 +298,29 @@ msgid "Used to inform kit qty used in the rma. Will be useful to refund"
 msgstr ""
 "Використовується для зазначення кількості комплекту в RMA. Буде корисно для "
 "повернення коштів"
+
+#. module: rma_sale_mrp
+#. odoo-python
+#: code:addons/rma_sale_mrp/wizard/sale_order_rma_wizard.py:0
+msgid ""
+"The kit corresponding to the product %s can't be put in the RMA. Either all "
+"or some of the components where already put in another RMA"
+msgstr ""
+"Комплект, що відповідає товару %s, не можна додати до RMA. Усі або деякі "
+"компоненти вже додані до іншого RMA"
+
+#. module: rma_sale_mrp
+#. odoo-python
+#: code:addons/rma_sale_mrp/models/rma.py:0
+msgid ""
+"To avoid kit quantities inconsistencies it is not possible to convert to "
+"draft a cancelled RMA. You should do a new one from the sales order."
+msgstr ""
+"Щоб уникнути невідповідностей кількості комплекту, скасований RMA не можна "
+"повернути до чернетки. Створіть новий із замовлення продажу."
+
+#. module: rma_sale_mrp
+#. odoo-python
+#: code:addons/rma_sale_mrp/models/rma.py:0
+msgid "You can't refund a kit in wich some RMAs aren't received"
+msgstr "Не можна повернути комплект, якщо деякі RMA ще не отримано"
