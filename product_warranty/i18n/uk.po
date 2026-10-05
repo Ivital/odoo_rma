@@ -133,3 +133,23 @@ msgstr "Тиждень(тижні)"
 #: model:ir.model.fields.selection,name:product_warranty.selection__product_template__warranty_type__year
 msgid "Year(s)"
 msgstr "Рік(роки)"
+
+#. module: product_warranty
+#: model_terms:ir.ui.view,arch_db:product_warranty.company_form
+msgid "CRM Product Return Address"
+msgstr "Адреса повернення товару CRM"
+
+#. module: product_warranty
+#: model_terms:ir.ui.view,arch_db:product_warranty.product_return_instructions_form_view
+msgid "Return instructions"
+msgstr "Інструкції з повернення"
+
+#. module: product_warranty
+#: model:ir.model.fields,field_description:product_warranty.field_product_supplierinfo__warranty_return_other_address
+msgid "Return other address"
+msgstr "Повернути іншу адресу"
+
+#. module: product_warranty
+#: model_terms:ir.ui.view,arch_db:product_warranty.product_supplierinfo_warranty_form_view
+msgid "Warranty informations"
+msgstr "Інформація про гарантію"

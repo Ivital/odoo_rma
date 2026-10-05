@@ -54,3 +54,14 @@ msgstr "Партія/серійний номер"
 #: model_terms:ir.ui.view,arch_db:rma_lot.rma_redelivery_wizard_view_form
 msgid "Serial Number"
 msgstr "Серійний номер"
+
+#. module: rma_lot
+#: model:ir.model.fields,field_description:rma_lot.field_rma_operation__deliver_same_lot
+msgid "Deliver Same Lot/Serial as Received"
+msgstr "Доставляти ту саму партію/серійний номер, що й отримано"
+
+#. module: rma_lot
+#: model:ir.model.fields,help:rma_lot.field_rma__product_tracking
+#: model:ir.model.fields,help:rma_lot.field_rma_delivery_wizard__product_tracking
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr "Забезпечує простежуваність складованого товару на вашому складі."

@@ -1244,3 +1244,575 @@ msgstr "Перегляд"
 #: model:ir.model.fields,field_description:rma.field_rma_team__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid ""
+"<i class=\"fa fa-fw fa-check\"/>\n"
+"                        <b>Paid</b>"
+msgstr ""
+"<i class=\"fa fa-fw fa-check\"/>\n"
+"                        <b>Оплачено</b>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid ""
+"<i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                        <b>Waiting Payment</b>"
+msgstr ""
+"<i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                        <b>Очікується оплата</b>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid ""
+"<span class=\"badge badge-danger label-text-align\">\n"
+"                                    <i class=\"fa fa-fw fa-times\"/>\n"
+"                                    Cancelled\n"
+"                                </span>"
+msgstr ""
+"<span class=\"badge badge-danger label-text-align\">\n"
+"                                    <i class=\"fa fa-fw fa-times\"/>\n"
+"                                    Скасовано\n"
+"                                </span>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid ""
+"<span class=\"badge badge-danger label-text-align\">\n"
+"                            <i class=\"fa fa-fw fa-times\"/>\n"
+"                            Cancelled\n"
+"                        </span>"
+msgstr ""
+"<span class=\"badge badge-danger label-text-align\">\n"
+"                            <i class=\"fa fa-fw fa-times\"/>\n"
+"                            Скасовано\n"
+"                        </span>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid ""
+"<span class=\"badge badge-info label-text-align\">\n"
+"                                    <i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                                    Preparation\n"
+"                                </span>"
+msgstr ""
+"<span class=\"badge badge-info label-text-align\">\n"
+"                                    <i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                                    Підготовка\n"
+"                                </span>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid ""
+"<span class=\"badge badge-info label-text-align\">\n"
+"                            <i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                            Preparation\n"
+"                        </span>"
+msgstr ""
+"<span class=\"badge badge-info label-text-align\">\n"
+"                            <i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                            Підготовка\n"
+"                        </span>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid ""
+"<span class=\"badge badge-success label-text-align\">\n"
+"                                    <i class=\"fa fa-fw fa-truck\"/>\n"
+"                                    Shipped\n"
+"                                </span>"
+msgstr ""
+"<span class=\"badge badge-success label-text-align\">\n"
+"                                    <i class=\"fa fa-fw fa-truck\"/>\n"
+"                                    Відправлено\n"
+"                                </span>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid ""
+"<span class=\"badge badge-success label-text-align\">\n"
+"                            <i class=\"fa fa-fw fa-truck\"/>\n"
+"                            Shipped\n"
+"                        </span>"
+msgstr ""
+"<span class=\"badge badge-success label-text-align\">\n"
+"                            <i class=\"fa fa-fw fa-truck\"/>\n"
+"                            Відправлено\n"
+"                        </span>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid ""
+"<span class=\"badge badge-warning label-text-align\">\n"
+"                                    <i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                                    Partially Available\n"
+"                                </span>"
+msgstr ""
+"<span class=\"badge badge-warning label-text-align\">\n"
+"                                    <i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                                    Частково доступно\n"
+"                                </span>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid ""
+"<span class=\"badge badge-warning label-text-align\">\n"
+"                            <i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                            Partially Available\n"
+"                        </span>"
+msgstr ""
+"<span class=\"badge badge-warning label-text-align\">\n"
+"                            <i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                            Частково доступно\n"
+"                        </span>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.rma_operation_kanban
+msgid "<span>Awaiting action</span>"
+msgstr "<span>Очікує дії</span>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.rma_operation_kanban
+msgid "<span>Draft</span>"
+msgstr "<span>Чернетка</span>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.rma_operation_kanban
+msgid "<span>Processed</span>"
+msgstr "<span>Оброблено</span>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid "<strong class=\"d-block mb-1\">Delivery</strong>"
+msgstr "<strong class=\"d-block mb-1\">Доставка</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid "<strong class=\"d-block mb-1\">Reception</strong>"
+msgstr "<strong class=\"d-block mb-1\">Приймання</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid "<strong class=\"d-block mb-1\">Refund</strong>"
+msgstr "<strong class=\"d-block mb-1\">Повернення коштів</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid "<strong>Customer:</strong>"
+msgstr "<strong>Клієнт:</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_document
+msgid "<strong>Deadline:</strong>"
+msgstr "<strong>Кінцевий строк:</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid "<strong>Deadline</strong>"
+msgstr "<strong>Кінцевий строк</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid "<strong>Delivered quantity</strong>"
+msgstr "<strong>Доставлена кількість</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid "<strong>Origin delivery</strong>"
+msgstr "<strong>Початкова доставка</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid "<strong>Origin</strong>"
+msgstr "<strong>Походження</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid "<strong>RMA Date</strong>"
+msgstr "<strong>Дата RMA</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_document
+msgid "<strong>RMA Note:</strong>"
+msgstr "<strong>Примітка RMA:</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid "<strong>Requested operation</strong>"
+msgstr "<strong>Запитана операція</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_document
+msgid "<strong>Shipping Address:</strong>"
+msgstr "<strong>Адреса доставки:</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.portal_rma_page
+msgid "<strong>Shipping address:</strong>"
+msgstr "<strong>Адреса доставки:</strong>"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.rma_team_view_form
+msgid "Accept Emails From"
+msgstr "Приймати листи від"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.rma_view_form
+msgid "Are you sure you want to cancel this RMA"
+msgstr "Ви впевнені, що хочете скасувати цей RMA?"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__auto_confirm_reception
+msgid "Auto Confirm Reception"
+msgstr "Автоматично підтверджувати приймання"
+
+#. module: rma
+#: model_terms:ir.actions.act_window,help:rma.rma_action
+msgid "Click to add a new RMA."
+msgstr "Натисніть, щоб додати новий RMA."
+
+#. module: rma
+#: model_terms:ir.actions.act_window,help:rma.rma_team_action
+msgid "Click to add a new team."
+msgstr "Натисніть, щоб додати нову команду."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__uom_category_id
+#: model:ir.model.fields,help:rma.field_rma_delivery_wizard__uom_category_id
+msgid ""
+"Conversion between Units of Measure can only occur if they belong to the "
+"same category. The conversion will be made based on the ratios."
+msgstr ""
+"Перетворення між одиницями вимірювання можливе лише тоді, коли вони належать"
+" до однієї категорії. Перетворення виконується на основі коефіцієнтів."
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__count_rma_awaiting_action
+msgid "Count Rma Awaiting Action"
+msgstr "Кількість RMA, що очікують дії"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_operation__count_rma_processed
+msgid "Count Rma Processed"
+msgstr "Кількість оброблених RMA"
+
+#. module: rma
+#: model_terms:ir.actions.act_window,help:rma.rma_dashboard_action
+msgid ""
+"Create a new RMA\n"
+"                operation"
+msgstr ""
+"Створити нову операцію\n"
+"                RMA"
+
+#. module: rma
+#: model_terms:ir.actions.act_window,help:rma.action_rma_finalization
+msgid "Create a new RMA finalization"
+msgstr "Створити нове завершення RMA"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__access_url
+msgid "Customer Portal URL"
+msgstr "URL порталу клієнта"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma__delivered_qty_done
+msgid "Delivered Qty Done"
+msgstr "Доставлену кількість виконано"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma__delivery_move_ids
+msgid "Delivery reservation"
+msgstr "Резервування доставки"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma__finalization_id
+msgid "Finalization Reason"
+msgstr "Причина завершення"
+
+#. module: rma
+#: model:ir.actions.act_window,name:rma.rma_finalization_wizard_action
+msgid "Finish RMA Manualy"
+msgstr "Завершити RMA вручну"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_res_config_settings__group_rma_manual_finalization
+msgid "Finish RMA manually choosing a reason"
+msgstr "Завершити RMA вручну, вибравши причину"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.res_config_settings_view_form
+msgid "Group RMA returns by customer and warehouse."
+msgstr "Групувати повернення RMA за клієнтом і складом."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__different_return_product
+#: model:ir.model.fields,help:rma.field_rma_operation__different_return_product
+#: model:ir.model.fields,help:rma.field_stock_return_picking_line__different_return_product
+msgid ""
+"If checked, allows the return of a product different from the one originally"
+" ordered. Used if the delivery is created automatically"
+msgstr ""
+"Якщо позначено, дозволяє повернення товару, відмінного від початково "
+"замовленого. Використовується, якщо доставку створено автоматично."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__message_needaction
+#: model:ir.model.fields,help:rma.field_rma_team__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__message_has_error
+#: model:ir.model.fields,help:rma.field_rma_team__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_document
+msgid "Invoicing Address:"
+msgstr "Адреса для виставлення рахунку:"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.report_rma_document
+msgid "Invoicing and Shipping Address:"
+msgstr "Адреса виставлення рахунків і доставки:"
+
+#. module: rma
+#: model_terms:ir.actions.act_window,help:rma.action_rma_finalization
+msgid ""
+"Manage RMA finalization reasons to better classify them for tracking and "
+"analysis purposes."
+msgstr ""
+"Керуйте причинами завершення RMA, щоб краще класифікувати їх для відстеження"
+" та аналізу."
+
+#. module: rma
+#: model_terms:ir.actions.act_window,help:rma.action_rma_tag
+msgid ""
+"Manage tags to better classify them for tracking and analysis purposes."
+msgstr ""
+"Керуйте тегами, щоб краще класифікувати їх для відстеження та аналізу."
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma__manual_finish_allowed
+msgid "Manual Finish Allowed"
+msgstr "Дозволено ручне завершення"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__message_needaction_counter
+#: model:ir.model.fields,help:rma.field_rma_team__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__message_has_error_counter
+#: model:ir.model.fields,help:rma.field_rma_team__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__return_product_id
+#: model:ir.model.fields,help:rma.field_stock_return_picking_line__return_product_id
+msgid ""
+"Product to be returned if it's different from the originally delivered item."
+msgstr ""
+"Товар, який повертається, якщо він відрізняється від початково доставленого."
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma_split_wizard__product_uom_qty
+msgid "Quantity to extract"
+msgstr "Кількість для вилучення"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.res_config_settings_view_form
+msgid "RMA Confirmation Email"
+msgstr "Лист підтвердження RMA"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.view_rma_finalization_form
+msgid "RMA Finalization"
+msgstr "Завершення RMA"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.res_config_settings_view_form
+msgid "RMA Manual Finalization"
+msgstr "Ручне завершення RMA"
+
+#. module: rma
+#: model:mail.message.subtype,name:rma.mt_rma_notification
+#: model:mail.message.subtype,name:rma.mt_rma_team_rma_notification
+#: model:mail.template,name:rma.mail_template_rma_notification
+msgid "RMA Notification"
+msgstr "Сповіщення RMA"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.res_config_settings_view_form
+msgid "RMA Receipt Confirmation Email"
+msgstr "Лист підтвердження отримання RMA"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.res_config_settings_view_form
+msgid "RMA draft notification Email"
+msgstr "Лист-сповіщення про чернетку RMA"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_stock_warehouse__rma_out_replace_route_id
+msgid "RMA out Replace Route"
+msgstr "Маршрут заміни вихідного RMA"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.rma_view_search
+msgid "RMAs which deadline has passed"
+msgstr "RMA, строк яких минув"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.rma_view_search
+msgid "RMAs yet to be fully processed"
+msgstr "RMA, що ще не повністю оброблені"
+
+#. module: rma
+#: model:ir.model.fields.selection,name:rma.selection__rma__state__refunded
+msgid "Refunded/Not invoiceable"
+msgstr "Повернено/не можна виставити рахунок"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma__remaining_qty
+msgid "Remaining delivered qty"
+msgstr "Залишкова доставлена кількість"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma__remaining_qty_to_done
+msgid "Remaining delivered qty to done"
+msgstr "Залишкова доставлена кількість до виконання"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__partner_shipping_id
+msgid "Shipping address for current RMA."
+msgstr "Адреса доставки для поточного RMA."
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma__show_create_receipt
+msgid "Show Create Receipt Button"
+msgstr "Показувати кнопку «Створити приймання»"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma__show_create_return
+msgid "Show Create Return Button"
+msgstr "Показувати кнопку «Створити повернення»"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma__show_create_refund
+msgid "Show Create refund Button"
+msgstr "Показувати кнопку «Створити повернення коштів»"
+
+#. module: rma
+#: model:ir.model.fields,field_description:rma.field_rma__show_create_replace
+msgid "Show Create replace Button"
+msgstr "Показувати кнопку «Створити заміну»"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: rma
+#: model:ir.model.constraint,message:rma.constraint_rma_tag_name_uniq
+msgid "Tag name already exists !"
+msgstr "Тег із такою назвою вже існує!"
+
+#. module: rma
+#: model_terms:ir.actions.act_window,help:rma.rma_dashboard_action
+msgid ""
+"The RMA operation system allows you to configure each return\n"
+"                operation\n"
+"                with specific settings that will adjust its behavior."
+msgstr ""
+"Система операцій RMA дає змогу налаштувати кожну операцію\n"
+"                повернення\n"
+"                з окремими параметрами, що визначають її поведінку."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: rma
+#: model:ir.model.fields.selection,name:rma.selection__rma_operation__action_create_refund__update_quantity
+msgid "Update Quantities"
+msgstr "Оновити кількості"
+
+#. module: rma
+#: model:res.groups,name:rma.rma_group_user_all
+msgid "User: All Documents"
+msgstr "Користувач: усі документи"
+
+#. module: rma
+#: model:res.groups,name:rma.rma_group_user_own
+msgid "User: Own Documents Only"
+msgstr "Користувач: лише власні документи"
+
+#. module: rma
+#: model:ir.model.fields.selection,name:rma.selection__rma__state__waiting_replacement
+msgid "Waiting for replacement"
+msgstr "Очікує заміни"
+
+#. module: rma
+#: model:ir.model.fields.selection,name:rma.selection__rma__state__waiting_return
+msgid "Waiting for return"
+msgstr "Очікування повернення"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__website_message_ids
+#: model:ir.model.fields,help:rma.field_rma_team__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.res_config_settings_view_form
+msgid ""
+"When customers themselves place an RMA from the portal, send an automatic "
+"notification acknowleging it."
+msgstr ""
+"Коли клієнти самі створюють RMA на порталі, надсилати автоматичне "
+"повідомлення про отримання запиту."
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.res_config_settings_view_form
+msgid "When the RMA is confirmed, send an automatic information email."
+msgstr "Після підтвердження RMA надсилати автоматичний інформаційний лист."
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.res_config_settings_view_form
+msgid ""
+"When the RMA is receive, allow to finsish it manually choosing a "
+"finalization reason."
+msgstr ""
+"Після отримання RMA дозволити завершити його вручну, вибравши причину "
+"завершення."
+
+#. module: rma
+#: model_terms:ir.ui.view,arch_db:rma.res_config_settings_view_form
+msgid ""
+"When the RMA products are received, send an automatic information email."
+msgstr ""
+"Після отримання товарів RMA надсилати автоматичний інформаційний лист."

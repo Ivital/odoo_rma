@@ -28,3 +28,47 @@ msgstr "Найновіші спочатку"
 #: model:ir.model.fields,field_description:rma_sale_auto_detect.field_rma_operation__return_eligibility_days
 msgid "Return eligibility duration (days)"
 msgstr "Тривалість права на повернення (дні)"
+
+#. module: rma_sale_auto_detect
+#: model:ir.model.fields,field_description:rma_sale_auto_detect.field_rma__has_sale_auto_detect_issue
+msgid "Has Sale Auto Detect Issue"
+msgstr "Є проблема автовиявлення продажу"
+
+#. module: rma_sale_auto_detect
+#: model:ir.model.fields,field_description:rma_sale_auto_detect.field_rma__ignore_sale_auto_detect
+msgid "Ignore Sale Auto Detect"
+msgstr "Ігнорувати автоматичне виявлення продажу"
+
+#. module: rma_sale_auto_detect
+#: model_terms:ir.ui.view,arch_db:rma_sale_auto_detect.rma_form_view
+msgid "Link to sale line"
+msgstr "Посилання на рядок продажу"
+
+#. module: rma_sale_auto_detect
+#: model:ir.model.fields,field_description:rma_sale_auto_detect.field_stock_move__rma_returnable_uom_qty
+msgid "RMA Returnable Quantity"
+msgstr "Кількість RMA, доступна для повернення"
+
+#. module: rma_sale_auto_detect
+#: model:ir.model.fields,field_description:rma_sale_auto_detect.field_rma_operation__return_eligibility_order
+msgid "Return Eligibility Order"
+msgstr "Порядок придатності до повернення"
+
+#. module: rma_sale_auto_detect
+#: model:ir.model.fields,field_description:rma_sale_auto_detect.field_rma__return_eligibility_period_exceeded
+msgid "Return Eligibility Period Exceeded"
+msgstr "Перевищено період придатності до повернення"
+
+#. module: rma_sale_auto_detect
+#: model:ir.model.fields,field_description:rma_sale_auto_detect.field_rma__sale_auto_detect_note
+msgid "Sale Auto Detect Note"
+msgstr "Примітка автовизначення продажу"
+
+#. module: rma_sale_auto_detect
+#: model_terms:ir.ui.view,arch_db:rma_sale_auto_detect.rma_form_view
+msgid ""
+"This return may no longer be eligible; the return eligibility period has "
+"been exceeded"
+msgstr ""
+"Це повернення може більше не відповідати умовам: строк можливого повернення "
+"минув"

@@ -42,3 +42,8 @@ msgstr "Ручна обробка"
 #: model_terms:ir.ui.view,arch_db:rma_batch_sale_auto_detect.rma_batch_form_view
 msgid "Mark as Ready"
 msgstr "Позначити як готове"
+
+#. module: rma_batch_sale_auto_detect
+#: model_terms:ir.ui.view,arch_db:rma_batch_sale_auto_detect.rma_batch_form_view
+msgid "Outside the eligibility period"
+msgstr "Поза періодом придатності"

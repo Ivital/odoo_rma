@@ -47,3 +47,26 @@ msgstr "Сума плати за повернення на склад"
 #: model:ir.model.fields,field_description:rma_sale_stock_restocking_fee_invoicing.field_rma_operation__restocking_fee_type
 msgid "Restocking Fee Type"
 msgstr "Тип плати за повернення на склад"
+
+#. module: rma_sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,help:rma_sale_stock_restocking_fee_invoicing.field_restocking_fee_mixin__restocking_fee_type
+#: model:ir.model.fields,help:rma_sale_stock_restocking_fee_invoicing.field_rma__restocking_fee_type
+#: model:ir.model.fields,help:rma_sale_stock_restocking_fee_invoicing.field_rma_operation__restocking_fee_type
+msgid "Define whether the restocking fee is a fixed amount or a percentage."
+msgstr ""
+"Визначає, чи комісія за повернення запасів є фіксованою сумою або відсотком."
+
+#. module: rma_sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,field_description:rma_sale_stock_restocking_fee_invoicing.field_rma__manual_restocking_fee_invoice_needed
+msgid "Manual Restocking Fee Invoice Needed"
+msgstr "Потрібен ручний рахунок на комісію за поповнення запасу"
+
+#. module: rma_sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,field_description:rma_sale_stock_restocking_fee_invoicing.field_rma__restocking_fee_invoice_id
+msgid "Restocking Fee Invoice"
+msgstr "Рахунок комісії за поповнення запасу"
+
+#. module: rma_sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,field_description:rma_sale_stock_restocking_fee_invoicing.field_rma__restocking_fee_visibility
+msgid "Restocking Fee Visibility"
+msgstr "Видимість комісії за поповнення запасу"

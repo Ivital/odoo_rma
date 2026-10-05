@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:rma_inter_company.field_rma__intercompany_rma_id
 msgid "Intercompany RMA"
 msgstr "Міжкомпанійний RMA"
+
+#. module: rma_inter_company
+#: model:ir.model.fields,field_description:rma_inter_company.field_rma__intercompany_origin_rma_id
+msgid "Intercompany Origin RMA"
+msgstr "Походження міжкомпанійного RMA"

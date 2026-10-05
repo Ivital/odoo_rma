@@ -222,3 +222,142 @@ msgstr "Адреса доставки"
 #: model:ir.model.fields,field_description:rma_sale.field_sale_order_line_rma_wizard__uom_id
 msgid "Unit of Measure"
 msgstr "Одиниця вимірювання"
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
+msgid "<i class=\"fa fa-check\"/> Request RMAs"
+msgstr "<i class=\"fa fa-check\"/> Запитати RMA"
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.sale_order_portal_template
+msgid "<i class=\"fa fa-reply me-1\"/> Request RMAs"
+msgstr "<i class=\"fa fa-reply me-1\"/> Запитати RMA"
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
+msgid "<i class=\"fa fa-times\"/> Cancel"
+msgstr "<i class=\"fa fa-times\"/> Скасувати"
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
+msgid "<i class=\"fa fa-truck\"/> Choose a delivery address"
+msgstr "<i class=\"fa fa-truck\"/> Виберіть адресу доставки"
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.portal_rma_page
+msgid "<strong>Sale order</strong>"
+msgstr "<strong>Замовлення на продаж</strong>"
+
+#. module: rma_sale
+#: model:ir.model.fields,field_description:rma_sale.field_rma__can_be_refunded_with_invoice
+msgid "Can Be Refunded With Invoice"
+msgstr "Можна повернути кошти рахунком"
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
+msgid ""
+"Comment anything relevant to the return, like serial numbers, a description "
+"of the issue, etc"
+msgstr ""
+"Прокоментуйте все, що стосується повернення: серійні номери, опис проблеми "
+"тощо"
+
+#. module: rma_sale
+#: model:ir.model.fields,field_description:rma_sale.field_sale_order_rma_wizard__commercial_partner_id
+msgid "Commercial entity"
+msgstr "Комерційна організація"
+
+#. module: rma_sale
+#: model:ir.model.fields,help:rma_sale.field_sale_order_line_rma_wizard__uom_category_id
+msgid ""
+"Conversion between Units of Measure can only occur if they belong to the "
+"same category. The conversion will be made based on the ratios."
+msgstr ""
+"Перетворення між одиницями вимірювання можливе лише тоді, коли вони належать"
+" до однієї категорії. Перетворення виконується на основі коефіцієнтів."
+
+#. module: rma_sale
+#: model:ir.model.fields,field_description:rma_sale.field_sale_order_rma_wizard__custom_description
+msgid "Custom Description"
+msgstr "Користувацький опис"
+
+#. module: rma_sale
+#: model:ir.model.fields,help:rma_sale.field_sale_order_line_rma_wizard__different_return_product
+msgid ""
+"If checked, allows the return of a product different from the one originally"
+" ordered. Used if the delivery is created automatically"
+msgstr ""
+"Якщо позначено, дозволяє повернення товару, відмінного від початково "
+"замовленого. Використовується, якщо доставку створено автоматично."
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
+msgid "If no requested operation is set, the RMA won't be correctly fulfilled"
+msgstr "Якщо запитану операцію не задано, RMA не буде коректно виконано"
+
+#. module: rma_sale
+#: model:ir.model.fields,help:rma_sale.field_sale_order_line_rma_wizard__return_product_id
+msgid ""
+"Product to be returned if it's different from the originally delivered item."
+msgstr ""
+"Товар, який повертається, якщо він відрізняється від початково доставленого."
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.request_rma_single_page
+msgid "RMA request for order"
+msgstr "Запит RMA для замовлення"
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
+msgid "Select the product quantity and the requested operation"
+msgstr "Виберіть кількість товару та запитану операцію"
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.res_config_settings_view_form
+msgid "Single page RMA request"
+msgstr "Односторінковий запит RMA"
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
+msgid "The limit will decrease when the units in other RMAs are confirmed"
+msgstr "Ліміт зменшуватиметься при підтвердженні одиниць в інших RMA"
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
+msgid ""
+"Use the comment button to add relevant information regarding the RMA, like "
+"returned serial numbers or a description of the issue"
+msgstr ""
+"Скористайтеся кнопкою коментаря, щоб додати важливу інформацію про RMA, "
+"наприклад повернуті серійні номери або опис проблеми"
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.res_config_settings_view_form
+msgid ""
+"When we hit the RMA request button from the portal sale page, open in a "
+"single page instead of a popup."
+msgstr ""
+"Після натискання кнопки запиту RMA на сторінці продажу порталу відкривати "
+"одну сторінку замість спливаючого вікна."
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
+msgid ""
+"You can only return as much product units as you received for this order"
+msgstr ""
+"Можна повернути не більше одиниць товару, ніж було отримано за цим "
+"замовленням"
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
+msgid "You can send a message in every RMA sent"
+msgstr "Можна надіслати повідомлення в кожному RMA"
+
+#. module: rma_sale
+#: model_terms:ir.ui.view,arch_db:rma_sale.sale_rma_request_form
+msgid ""
+"You're about to perform an RMA request. Our team will process it an will "
+"reach you once it's validated. Keep in mind that:"
+msgstr ""
+"Ви збираєтеся створити запит RMA. Наша команда опрацює його й зв’яжеться з "
+"вами після підтвердження. Зверніть увагу:"
