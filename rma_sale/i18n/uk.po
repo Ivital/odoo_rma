@@ -361,3 +361,23 @@ msgid ""
 msgstr ""
 "Ви збираєтеся створити запит RMA. Наша команда опрацює його й зв’яжеться з "
 "вами після підтвердження. Зверніть увагу:"
+
+#. module: rma_sale
+#: model:ir.model.fields,help:rma_sale.field_res_company__show_full_page_sale_rma
+#: model:ir.model.fields,help:rma_sale.field_res_config_settings__show_full_page_sale_rma
+msgid ""
+"From the frontend sale order page go to a single RMA page creation instead "
+"of the usual popup"
+msgstr ""
+"Зі сторінки замовлення на продаж у фронтенді переходити на окрему сторінку "
+"створення RMA замість звичайного спливаючого вікна"
+
+#. module: rma_sale
+#: model:ir.model.fields,help:rma_sale.field_sale_order_rma_wizard__custom_description
+msgid "Values coming from portal RMA request form custom fields"
+msgstr "Значення з користувацьких полів форми запиту RMA на порталі"
+
+#. module: rma_sale
+#: model:ir.model.fields,help:rma_sale.field_sale_order_rma_wizard__partner_shipping_id
+msgid "Will be used to return the goods when the RMA is completed"
+msgstr "Використовуватиметься для повернення товарів після завершення RMA"

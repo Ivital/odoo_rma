@@ -338,3 +338,14 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:rma_batch.field_rma_batch__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: rma_batch
+#: model:ir.model.fields,help:rma_batch.field_rma_batch__location_id
+msgid "Default RMA location that will be propagated to RMA order lines"
+msgstr ""
+"Місце RMA за замовчуванням, яке буде перенесено до рядків замовлення RMA"
+
+#. module: rma_batch
+#: model:ir.model.fields,help:rma_batch.field_rma_batch__partner_invoice_id
+msgid "Refund address for current RMA."
+msgstr "Адреса повернення коштів для поточного RMA."

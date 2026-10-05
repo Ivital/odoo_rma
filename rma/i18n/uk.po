@@ -1816,3 +1816,334 @@ msgid ""
 "When the RMA products are received, send an automatic information email."
 msgstr ""
 "Після отримання товарів RMA надсилати автоматичний інформаційний лист."
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/models/rma_operation.py:0
+#: code:addons/rma/models/rma_team.py:0
+msgid "%s (copy)"
+msgstr "%s (копія)"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_team__alias_defaults
+msgid ""
+"A Python dictionary that will be evaluated to provide default values when "
+"creating new records for this alias."
+msgstr ""
+"Словник Python, який буде обчислено для надання типових значень під час "
+"створення нових записів для цього псевдоніма."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_team__alias_status
+msgid "Alias status assessed on the last message received."
+msgstr "Статус псевдоніма, визначений за останнім отриманим повідомленням."
+
+#. module: rma
+#: model:res.groups,name:rma.group_rma_manual_finalization
+msgid "Allow RMA manual finalization"
+msgstr "Дозволити ручне завершення RMA"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_res_config_settings__group_rma_manual_finalization
+msgid "Allow to finish an RMA without returning back a product or refunding"
+msgstr "Дозволити завершити RMA без повернення товару або відшкодування"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_operation__action_create_delivery
+msgid "Define how the delivery action should be handled."
+msgstr "Визначає спосіб обробки дії доставки."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_operation__action_create_receipt
+msgid "Define how the receipt action should be handled."
+msgstr "Визначає спосіб обробки дії отримання."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_operation__action_create_refund
+msgid "Define how the refund action should be handled."
+msgstr "Визначає спосіб обробки дії повернення."
+
+#. module: rma
+#: model:mail.message.subtype,name:rma.mt_rma_draft
+#: model:mail.message.subtype,name:rma.mt_rma_team_rma_draft
+msgid "Draft RMA"
+msgstr "Чернетка RMA"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_team__alias_domain
+msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
+msgstr ""
+"Домен електронної пошти, наприклад 'example.com' в адресі 'odoo@example.com'"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_res_company__rma_mail_confirmation_template_id
+#: model:ir.model.fields,help:rma.field_res_config_settings__rma_mail_confirmation_template_id
+msgid "Email sent to the customer once the RMA is confirmed."
+msgstr "Електронний лист, що надсилається клієнту після підтвердження RMA."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_res_company__rma_mail_receipt_confirmation_template_id
+#: model:ir.model.fields,help:rma.field_res_config_settings__rma_mail_receipt_confirmation_template_id
+msgid "Email sent to the customer once the RMA products are received."
+msgstr ""
+"Електронний лист, що надсилається клієнту після отримання товарів RMA."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_res_company__rma_mail_draft_confirmation_template_id
+#: model:ir.model.fields,help:rma.field_res_config_settings__rma_mail_draft_confirmation_template_id
+msgid "Email sent to the customer when they place an RMA from the portal"
+msgstr ""
+"Електронний лист, що надсилається клієнту, коли він створює RMA через портал"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_operation__auto_confirm_reception
+msgid ""
+"Enable this option to automatically confirm the reception when the RMA is "
+"confirmed."
+msgstr ""
+"Увімкніть, щоб автоматично підтверджувати приймання після підтвердження RMA."
+
+#. module: rma
+#: model:ir.model.constraint,message:rma.constraint_rma_finalization_name_company_uniq
+msgid "Finalization name already exists !"
+msgstr "Назва завершення вже існує!"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_team__alias_parent_thread_id
+msgid ""
+"ID of the parent record holding the alias (example: project holding the task"
+" creation alias)"
+msgstr ""
+"ID батьківського запису, що містить псевдонім (наприклад, проєкт, що містить"
+" псевдонім створення завдання)"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_operation__prevent_delivery_grouping
+msgid ""
+"If enabled, RMAs using this operation will NOT be grouped into a single "
+"delivery picking, even if the company setting allows grouping."
+msgstr ""
+"Якщо увімкнено, RMA з цією операцією НЕ групуватимуться в одну вихідну "
+"передачу, навіть якщо налаштування компанії дозволяє групування."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_team__alias_bounced_content
+msgid ""
+"If set, this content will automatically be sent out to unauthorized users "
+"instead of the default message."
+msgstr ""
+"Якщо задано, цей вміст автоматично надсилатиметься неавторизованим "
+"користувачам замість стандартного повідомлення."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_team__active
+msgid ""
+"If the active field is set to false, it will allow you to hide the RMA Team "
+"without removing it."
+msgstr ""
+"Якщо поле «Активно» вимкнено, команду RMA можна приховати без її видалення."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__manual_finish_allowed
+msgid ""
+"Indicates whether this RMA can be manually finished, without requiring "
+"further processing such as a receipt, delivery, or refund."
+msgstr ""
+"Вказує, чи можна вручну завершити цей RMA без подальшої обробки, наприклад "
+"приймання, доставки або повернення коштів."
+
+#. module: rma
+#: model:ir.module.category,description:rma.rma_module_category
+msgid "Manage Return Merchandise Authorizations (RMAs)."
+msgstr "Керування дозволами на повернення товарів (RMA)."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_team__alias_force_thread_id
+msgid ""
+"Optional ID of a thread (record) to which all incoming messages will be "
+"attached, even if they did not reply to it. If set, this will disable the "
+"creation of new records completely."
+msgstr ""
+"Необов’язковий ID гілки (запису), до якої буде прикріплено всі вхідні "
+"повідомлення, навіть якщо вони не є відповідями на неї. Якщо задано, "
+"створення нових записів буде повністю вимкнено."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_team__alias_parent_model_id
+msgid ""
+"Parent model holding the alias. The model holding the alias reference is not"
+" necessarily the model given by alias_model_id (example: project "
+"(parent_model) and task (model))"
+msgstr ""
+"Батьківська модель, що містить псевдонім. Модель із посиланням на псевдонім "
+"не обов’язково є моделлю з alias_model_id (наприклад: project (parent_model)"
+" і task (model))"
+
+#. module: rma
+#. odoo-python
+#: code:addons/rma/wizard/rma_delivery.py:0
+#: model:ir.model.constraint,message:rma.constraint_rma_split_wizard_check_product_uom_qty_positive
+msgid "Quantity must be greater than 0."
+msgstr "Кількість має бути більшою за 0."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_split_wizard__product_uom_qty
+msgid "Quantity to extract to a new RMA."
+msgstr "Кількість для вилучення в новий RMA."
+
+#. module: rma
+#: model:mail.template,name:rma.mail_template_rma_draft_notification
+msgid "RMA Draft Notification"
+msgstr "Сповіщення про чернетку RMA"
+
+#. module: rma
+#: model:ir.model,name:rma.model_rma_finalization
+msgid "RMA Finalization Reason"
+msgstr "Причина завершення RMA"
+
+#. module: rma
+#: model:ir.model,name:rma.model_rma_finalization_wizard
+msgid "RMA Finalization Wizard"
+msgstr "Майстер завершення RMA"
+
+#. module: rma
+#: model:mail.template,name:rma.mail_template_rma_receipt_notification
+msgid "RMA Receipt Notification"
+msgstr "Сповіщення про отримання RMA"
+
+#. module: rma
+#: model:ir.model,name:rma.model_rma_split_wizard
+msgid "RMA Split Wizard"
+msgstr "Майстер розділення RMA"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_res_users__rma_team_id
+msgid "RMA Team the user is member of."
+msgstr "Команда RMA, членом якої є користувач."
+
+#. module: rma
+#: model:mail.message.subtype,description:rma.mt_rma_notification
+msgid "RMA automatic customer notifications"
+msgstr "Автоматичні сповіщення клієнта RMA"
+
+#. module: rma
+#: model:mail.message.subtype,description:rma.mt_rma_draft
+msgid "RMA in draft state"
+msgstr "RMA у стані чернетки"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_stock_warehouse__rma
+msgid "RMA related products can be stored in this warehouse."
+msgstr "Пов’язані з RMA товари можна зберігати на цьому складі."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__origin
+msgid "Reference of the document that generated this RMA."
+msgstr "Посилання на документ, що створив цей RMA."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma__partner_invoice_id
+msgid "Refund address for current RMA."
+msgstr "Адреса повернення коштів для поточного RMA."
+
+#. module: rma
+#: model:ir.model.constraint,message:rma.constraint_rma_operation_name_uniq
+msgid "That operation name already exists !"
+msgstr "Назва цієї операції вже існує!"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_tag__active
+msgid "The active field allows you to hide the category without removing it."
+msgstr "Поле «Активно» дозволяє приховати категорію без її видалення."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_team__alias_model_id
+msgid ""
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+" email that does not reply to an existing record will cause the creation of "
+"a new record of this model (e.g. a Project Task)"
+msgstr ""
+"Модель (тип документа Odoo), якій відповідає цей псевдонім. Будь-який "
+"вхідний лист, що не є відповіддю на існуючий запис, спричинить створення "
+"нового запису цієї моделі (наприклад, завдання проєкту)."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_team__alias_name
+msgid ""
+"The name of the email alias, e.g. 'jobs' if you want to catch emails for "
+"<jobs@example.odoo.com>"
+msgstr ""
+"Назва поштового псевдоніма, напр. 'jobs', якщо потрібно приймати листи для "
+"<jobs@example.odoo.com>"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_rma_tag__is_public
+msgid "The tag is visible in the portal view"
+msgstr "Тег видимий у представленні порталу"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_res_company__send_rma_draft_confirmation
+#: model:ir.model.fields,help:rma.field_res_config_settings__send_rma_draft_confirmation
+msgid "When a customer places an RMA, send a notification with it"
+msgstr "Коли клієнт створює RMA, надіслати разом із ним сповіщення"
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_res_company__send_rma_receipt_confirmation
+#: model:ir.model.fields,help:rma.field_res_config_settings__send_rma_receipt_confirmation
+msgid ""
+"When the RMA receipt is confirmed, send a confirmation email to the "
+"customer."
+msgstr ""
+"Після підтвердження отримання RMA надіслати клієнту електронний лист-"
+"підтвердження."
+
+#. module: rma
+#: model:ir.model.fields,help:rma.field_res_company__send_rma_confirmation
+#: model:ir.model.fields,help:rma.field_res_config_settings__send_rma_confirmation
+msgid ""
+"When the delivery is confirmed, send a confirmation email to the customer."
+msgstr ""
+"Після підтвердження доставки надіслати клієнту електронний лист-"
+"підтвердження."
+
+#. module: rma
+#: model:res.groups,comment:rma.rma_group_user_all
+msgid ""
+"the user will have access to all records of everyone in the RMA application."
+msgstr ""
+"користувач матиме доступ до всіх записів усіх користувачів у застосунку RMA."
+
+#. module: rma
+#: model:res.groups,comment:rma.rma_group_user_own
+msgid "the user will have access to his own data in the RMA application."
+msgstr "Користувач матиме доступ до власних даних у застосунку RMA."
+
+#. module: rma
+#: model:res.groups,comment:rma.rma_group_manager
+msgid ""
+"the user will have an access to the RMA configuration as well as statistic "
+"reports."
+msgstr "користувач матиме доступ до конфігурації RMA та статистичних звітів."
+
+#. module: rma
+#: model:mail.template,subject:rma.mail_template_rma_notification
+msgid "{{object.company_id.name}} RMA (Ref {{object.name or 'n/a' }})"
+msgstr "{{object.company_id.name}} RMA (Посилання {{object.name or 'n/a' }})"
+
+#. module: rma
+#: model:mail.template,subject:rma.mail_template_rma_receipt_notification
+msgid ""
+"{{object.company_id.name}} RMA (Ref {{object.name or 'n/a' }}) products "
+"received"
+msgstr ""
+"{{object.company_id.name}} RMA (Ref {{object.name or 'n/a' }}) — товари "
+"отримано"
+
+#. module: rma
+#: model:mail.template,subject:rma.mail_template_rma_draft_notification
+msgid ""
+"{{object.company_id.name}} Your RMA has been succesfully created (Ref "
+"{{object.name or 'n/a' }})"
+msgstr ""
+"{{object.company_id.name}} Ваш RMA успішно створено (Ref {{object.name or "
+"'n/a' }})"

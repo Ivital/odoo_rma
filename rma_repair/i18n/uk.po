@@ -59,3 +59,8 @@ msgstr "Вручну під час підтвердження"
 #: model:ir.model.fields,field_description:rma_repair.field_rma_operation__action_create_repair
 msgid "Repair Action"
 msgstr "Дія ремонту"
+
+#. module: rma_repair
+#: model:ir.model.fields,help:rma_repair.field_rma_operation__action_create_repair
+msgid "Define how the repair action should be handled."
+msgstr "Визначає спосіб обробки дії ремонту."

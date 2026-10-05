@@ -47,3 +47,20 @@ msgstr "Позначити як готове"
 #: model_terms:ir.ui.view,arch_db:rma_batch_sale_auto_detect.rma_batch_form_view
 msgid "Outside the eligibility period"
 msgstr "Поза періодом придатності"
+
+#. module: rma_batch_sale_auto_detect
+#: model:ir.model.fields,help:rma_batch_sale_auto_detect.field_rma_batch__state
+msgid ""
+"Represents the preparation and validation progress of the RMA batch:\n"
+"- Draft: RMAs are being prepared\n"
+"- Manual Treatment: One or more RMAs require manual matching\n"
+"- Ready: All RMAs are completed and batch is ready to be confirmed\n"
+"- Confirmed: The batch is validated and all RMAs are confirmed\n"
+"- Cancelled: The batch is cancelled"
+msgstr ""
+"Відображає прогрес підготовки та підтвердження пакета RMA:\n"
+"- Чернетка: RMA готуються\n"
+"- Ручна обробка: один або кілька RMA потребують ручного зіставлення\n"
+"- Готово: усі RMA завершено, пакет готовий до підтвердження\n"
+"- Підтверджено: пакет перевірено й усі RMA підтверджено\n"
+"- Скасовано: пакет скасовано"

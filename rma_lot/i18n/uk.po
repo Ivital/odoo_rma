@@ -65,3 +65,19 @@ msgstr "Доставляти ту саму партію/серійний ном�
 #: model:ir.model.fields,help:rma_lot.field_rma_delivery_wizard__product_tracking
 msgid "Ensure the traceability of a storable product in your warehouse."
 msgstr "Забезпечує простежуваність складованого товару на вашому складі."
+
+#. module: rma_lot
+#: model:ir.model.fields,help:rma_lot.field_rma_operation__deliver_same_lot
+msgid ""
+"If enabled, the replacement or delivery product will use the exact "
+"lot/serial number received from the customer. Disable if a different lot or "
+"serial number should be assigned."
+msgstr ""
+"Якщо увімкнено, товар для заміни або доставки використовуватиме точний номер"
+" партії/серійний номер, отриманий від клієнта. Вимкніть, якщо слід "
+"призначити іншу партію або серійний номер."
+
+#. module: rma_lot
+#: model:ir.model,name:rma_lot.model_rma_delivery_wizard
+msgid "RMA Delivery Wizard"
+msgstr "Майстер доставки RMA"

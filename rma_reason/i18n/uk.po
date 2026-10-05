@@ -128,3 +128,13 @@ msgstr ""
 "RMA. Увімкнення гарантує, що всі запити на повернення матимуть "
 "задокументовану причину, що допомагає в управлінні запасами, контролі якості"
 " та обслуговуванні клієнтів."
+
+#. module: rma_reason
+#: model:ir.model.fields,help:rma_reason.field_rma_reason__allowed_operation_ids
+msgid "List of RMA operations that are allowed when this reason is selected."
+msgstr "Список операцій RMA, дозволених при виборі цієї причини."
+
+#. module: rma_reason
+#: model:ir.model,name:rma_reason.model_rma_reason
+msgid "Rma Reason"
+msgstr "Причина RMA"

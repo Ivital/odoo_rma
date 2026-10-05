@@ -70,3 +70,13 @@ msgstr "Рахунок комісії за поповнення запасу"
 #: model:ir.model.fields,field_description:rma_sale_stock_restocking_fee_invoicing.field_rma__restocking_fee_visibility
 msgid "Restocking Fee Visibility"
 msgstr "Видимість комісії за поповнення запасу"
+
+#. module: rma_sale_stock_restocking_fee_invoicing
+#: model:ir.model,name:rma_sale_stock_restocking_fee_invoicing.model_rma_operation
+msgid "RMA requested operation"
+msgstr "Запитана операція RMA"
+
+#. module: rma_sale_stock_restocking_fee_invoicing
+#: model:ir.model,name:rma_sale_stock_restocking_fee_invoicing.model_restocking_fee_mixin
+msgid "Restocking Fee Mixin"
+msgstr "Міксин плати за повернення на склад"
