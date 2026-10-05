@@ -22,3 +22,23 @@ msgstr "Пакет RMA"
 #: model:ir.model.fields,field_description:rma_batch_sale_auto_detect.field_rma_batch__state
 msgid "Status"
 msgstr "Статус"
+
+#. module: rma_batch_sale_auto_detect
+#: model_terms:ir.ui.view,arch_db:rma_batch_sale_auto_detect.rma_batch_form_view
+msgid "Eligibility Days"
+msgstr "Дні відповідності"
+
+#. module: rma_batch_sale_auto_detect
+#: model_terms:ir.ui.view,arch_db:rma_batch_sale_auto_detect.rma_batch_form_view
+msgid "Ignore sale link"
+msgstr "Ігнорувати зв’язок із продажем"
+
+#. module: rma_batch_sale_auto_detect
+#: model:ir.model.fields.selection,name:rma_batch_sale_auto_detect.selection__rma_batch__state__manual
+msgid "Manual Treatment"
+msgstr "Ручна обробка"
+
+#. module: rma_batch_sale_auto_detect
+#: model_terms:ir.ui.view,arch_db:rma_batch_sale_auto_detect.rma_batch_form_view
+msgid "Mark as Ready"
+msgstr "Позначити як готове"

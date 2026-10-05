@@ -67,3 +67,46 @@ msgstr "Причина"
 #: model:ir.ui.menu,name:rma_reason.rma_reason_menu
 msgid "Reasons"
 msgstr "Причини"
+
+#. module: rma_reason
+#: model:ir.model.fields,field_description:rma_reason.field_rma_rma_wizard__domain_operation_id
+msgid "Domain Operation"
+msgstr "Операція домену"
+
+#. module: rma_reason
+#: model:ir.model.fields,field_description:rma_reason.field_res_company__is_rma_reason_required
+#: model:ir.model.fields,field_description:rma_reason.field_res_config_settings__is_rma_reason_required
+#: model:ir.model.fields,field_description:rma_reason.field_rma__is_rma_reason_required
+#: model:ir.model.fields,field_description:rma_reason.field_stock_return_picking_line__is_rma_reason_required
+msgid ""
+"Indicates whether specifying an RMA reason is mandatory when creating an RMA"
+" order."
+msgstr ""
+"Визначає, чи обов'язково вказувати причину RMA під час створення замовлення "
+"RMA."
+
+#. module: rma_reason
+#: model:ir.model.fields,field_description:rma_reason.field_rma_reason__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: rma_reason
+#: model:ir.model.fields,field_description:rma_reason.field_rma_reason__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: rma_reason
+#: model:ir.model.fields,field_description:rma_reason.field_rma__operation_domain
+msgid "Operation Domain"
+msgstr "Домен операції"
+
+#. module: rma_reason
+#: model:ir.model.fields,field_description:rma_reason.field_rma_rma_wizard__operation_id
+msgid "Requested operation"
+msgstr "Запитана операція"
+
+#. module: rma_reason
+#: model:ir.model.fields,field_description:rma_reason.field_stock_return_picking__rma_operation_domain
+#: model:ir.model.fields,field_description:rma_reason.field_stock_return_picking_line__rma_operation_domain
+msgid "Rma Operation Domain"
+msgstr "Домен операції RMA"

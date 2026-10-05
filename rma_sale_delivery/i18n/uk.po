@@ -17,3 +17,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:rma_sale_delivery.field_sale_order_rma_wizard__company_id
 msgid "Company"
 msgstr "Компанія"
+
+#. module: rma_sale_delivery
+#: model:ir.model.fields,field_description:rma_sale_delivery.field_sale_order_rma_wizard__available_reception_carrier_ids
+msgid "Available Reception Carrier"
+msgstr "Доступний перевізник приймання"
+
+#. module: rma_sale_delivery
+#: model:ir.model.fields,field_description:rma_sale_delivery.field_sale_order_rma_wizard__rma_reception_strategy
+msgid "RMA reception method strategy"
+msgstr "Стратегія методу приймання RMA"
+
+#. module: rma_sale_delivery
+#: model:ir.model.fields,field_description:rma_sale_delivery.field_sale_order_rma_wizard__reception_carrier_id
+msgid "Reception Carrier"
+msgstr "Перевізник приймання"

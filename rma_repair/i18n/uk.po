@@ -17,3 +17,45 @@ msgstr ""
 #: model:ir.model.fields,field_description:rma_repair.field_rma__repair_id
 msgid "Repair"
 msgstr "Ремонт"
+
+#. module: rma_repair
+#: model_terms:ir.ui.view,arch_db:rma_repair.rma_view_form
+msgid "<span class=\"o_stat_text\">Repair order</span>"
+msgstr "<span class=\"o_stat_text\">Замовлення на ремонт</span>"
+
+#. module: rma_repair
+#: model:ir.model.fields.selection,name:rma_repair.selection__rma_operation__action_create_repair__automatic_after_receipt
+msgid "Automatically After Receipt"
+msgstr "Автоматично після отримання"
+
+#. module: rma_repair
+#: model:ir.model.fields.selection,name:rma_repair.selection__rma_operation__action_create_repair__automatic_on_confirm
+msgid "Automatically on Confirm"
+msgstr "Автоматично під час підтвердження"
+
+#. module: rma_repair
+#: model:ir.model.fields,field_description:rma_repair.field_rma__can_be_repaired
+msgid "Can Be Repaired"
+msgstr "Можна відремонтувати"
+
+#. module: rma_repair
+#. odoo-python
+#: code:addons/rma_repair/models/rma.py:0
+#: model_terms:ir.ui.view,arch_db:rma_repair.rma_view_form
+msgid "Create Repair Order"
+msgstr "Створити замовлення на ремонт"
+
+#. module: rma_repair
+#: model:ir.model.fields.selection,name:rma_repair.selection__rma_operation__action_create_repair__manual_after_receipt
+msgid "Manually After Receipt"
+msgstr "Вручну після отримання"
+
+#. module: rma_repair
+#: model:ir.model.fields.selection,name:rma_repair.selection__rma_operation__action_create_repair__manual_on_confirm
+msgid "Manually on Confirm"
+msgstr "Вручну під час підтвердження"
+
+#. module: rma_repair
+#: model:ir.model.fields,field_description:rma_repair.field_rma_operation__action_create_repair
+msgid "Repair Action"
+msgstr "Дія ремонту"

@@ -33,3 +33,17 @@ msgstr "Рахунок-фактура"
 #: model:ir.model.fields.selection,name:rma_sale_stock_restocking_fee_invoicing.selection__rma_operation__restocking_fee_type__percent
 msgid "Percentage"
 msgstr "Відсоток"
+
+#. module: rma_sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,field_description:rma_sale_stock_restocking_fee_invoicing.field_restocking_fee_mixin__restocking_fee_amount
+#: model:ir.model.fields,field_description:rma_sale_stock_restocking_fee_invoicing.field_rma__restocking_fee_amount
+#: model:ir.model.fields,field_description:rma_sale_stock_restocking_fee_invoicing.field_rma_operation__restocking_fee_amount
+msgid "Restocking Fee Amount"
+msgstr "Сума плати за повернення на склад"
+
+#. module: rma_sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,field_description:rma_sale_stock_restocking_fee_invoicing.field_restocking_fee_mixin__restocking_fee_type
+#: model:ir.model.fields,field_description:rma_sale_stock_restocking_fee_invoicing.field_rma__restocking_fee_type
+#: model:ir.model.fields,field_description:rma_sale_stock_restocking_fee_invoicing.field_rma_operation__restocking_fee_type
+msgid "Restocking Fee Type"
+msgstr "Тип плати за повернення на склад"
